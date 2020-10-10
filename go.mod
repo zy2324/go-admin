@@ -3,12 +3,15 @@ module github.com/GoAdminGroup/go-admin
 go 1.13
 
 require (
+	cloud.google.com/go v0.37.4 // indirect
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
 	github.com/GoAdminGroup/html v0.0.1
+	github.com/GoAdminGroup/themes v0.0.40
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e
+	github.com/gin-gonic/gin v1.6.3
 	github.com/go-sql-driver/mysql v1.5.0
-	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
+	github.com/gobuffalo/packr/v2 v2.8.0 // indirect
 	github.com/lib/pq v1.3.0
 	github.com/magiconair/properties v1.8.1
 	github.com/mattn/go-colorable v0.1.4 // indirect
