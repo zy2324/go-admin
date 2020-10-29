@@ -26,10 +26,10 @@ func main() {
 	cfg := config.Config{
 		Databases: config.DatabaseList{
 			"default": {
-				Host:         "127.0.0.1",
-				Port:         "3306",
+				Host:         "0.0.0.0",
+				Port:         "6006",
 				User:         "root",
-				Pwd:          "thisislifeZy007~",
+				Pwd:          "zhaoyi007",
 				Name:         "goadmin",
 				MaxIdleCon: 50,
 				MaxOpenCon: 150,
